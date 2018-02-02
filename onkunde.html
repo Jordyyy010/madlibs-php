@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Madlibs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+  </head>
+  <body>
+      <h1>Mad Libs</h1>
+    <article>
+      <a href="index.html">Er heerst paniek...</a>
+      <a href="onkunde.html">Onkunde</a>
+    </article>
+    <main>
+      <form action="onkunde.php" method="post">
+      <aside>
+        <input type="text" name="specialiteit">
+        <input type="text" name="opschieten">
+        <input type="text" name="getal">
+        <input type="text" name="vakantie">
+        <input type="text" name="eigenschap">
+        <input type="text" name="slechtste">
+        <input type="text" name="overkomen">
+        <button type="submit">Verstuur</button>
+      </aside>
+        <h2>Onkunde</h2>
+        <p>Wat zou je graag willen kunnen?</p>
+        <p>Met welke persoon kun je goed opschieten?</p>
+        <p>Wat is je favoriete getal?</p>
+        <p>Wat heb je altijd bij je als je op vakantie gaat?</p>
+        <p>Wat is je beste persoonlijke eigenschap?</p>
+        <p>wat is je slechtste persoonlijke eigenschap?</p>
+        <p>Wat is het ergste wat je kan overkomen?</p>
+      </form>
+    </main>
+    <footer>
+      <p>Deze website is gemaakt door <?php echo $_POST['spijbel'];?></p>
+    </footer>
+  </body>
+</html>
