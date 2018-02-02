@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+  font-size: 20px;
+}
+
+head{
+  margin-left: 30%;
+}
+
+article{
+  background-color: darkred;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+h1{
+  margin-left: 30%;
+  font-size: 50px;
+  font-family: fantasy;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+  background-color: white;
+  width: 40%;
+  padding: 20px;
+  height: 380px;
+}
+
+aside {
+  float: right;
+  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  padding: 5px;
+}
+
+input{
+  margin-bottom: 14px;
+}
+
+footer{
+  margin: 0 auto;
+  background-color: darkgrey;
+  width: 40%;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+}
